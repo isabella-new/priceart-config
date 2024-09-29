@@ -1,0 +1,23 @@
+#Application Config
+application:
+  listino: 1
+
+management:
+  info:
+    env:
+      enabled: true
+    git:
+      enabled: true
+      mode: full
+  endpoint:
+    health:
+      show-details: WHEN_AUTHORIZED
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
+info:
+  nome:
+    nome-app: PriceArt Web Service 
+  profilo: GitHub
