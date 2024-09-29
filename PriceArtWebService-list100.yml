@@ -1,7 +1,6 @@
 #Application Config
 application:
   listino: 100
-
 management:
   info:
     env:
@@ -16,7 +15,6 @@ management:
     web:
       exposure:
         include: health,info,metrics
-
 info:
   nome:
     nome-app: PriceArt Web Service 
