@@ -1,6 +1,8 @@
 #Application Config
 application:
   listino: 1
+  sconto: 2
+
 management:
   info:
     env:
@@ -19,3 +21,4 @@ info:
   nome:
     nome-app: PriceArt Web Service 
   profilo: GitHub
+  variante: promo
