@@ -1,7 +1,7 @@
 #Application Config
 application:
   listino: 1
-  sconto: 2
+  sconto: 0
 
 management:
   info:
@@ -16,7 +16,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,metrics
+        include: health,info,metrics,refresh
 info:
   nome:
     nome-app: PriceArt Web Service 
