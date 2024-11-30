@@ -1,6 +1,8 @@
 #Application Config
 application:
   listino: 1
+  sconto: 10
+
 management:
   info:
     env:
@@ -14,8 +16,9 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,metrics
+        include: health,info,metrics,refresh
 info:
   nome:
     nome-app: PriceArt Web Service 
   profilo: GitHub
+  variante: promo
